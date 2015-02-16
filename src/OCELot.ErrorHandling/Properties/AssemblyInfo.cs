@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("OCELot.ErrorHandling")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A collection of classes and helpers to handle business logic errors that are safe to be displayed to an end user, unlike exceptions which typically should not be.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("OCELot.ErrorHandling")]
