@@ -104,7 +104,7 @@ namespace OCELot.ErrorHandling
         /// <param name="message"></param>
         /// <param name="logicErrors"></param>
         /// <returns></returns>
-        protected static string GetAllMessages(string message, LogicErrors logicErrors)
+        private static string GetAllMessages(string message, LogicErrors logicErrors)
         {
             var stringBuilder = new StringBuilder();
             if (!string.IsNullOrWhiteSpace(message))
@@ -118,11 +118,11 @@ namespace OCELot.ErrorHandling
         /// <summary>
         /// The collection of errors that caused this exception
         /// </summary>
-        public LogicErrors Errors { get; set; }
+        public LogicErrors Errors { get; private set; }
 
         /// <summary>
         /// Any additional information to display about the exception
         /// </summary>
-        public string AdditionalMessage { get; set; }
+        public string AdditionalMessage { get; private set; }
     }
 }

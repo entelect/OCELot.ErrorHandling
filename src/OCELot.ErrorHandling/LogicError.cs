@@ -16,7 +16,7 @@
         /// collect all the validation errors and return them at once instead of throwing a single exception for each
         /// </summary>
         /// <param name="message">The message to display to the end user of the system</param>
-        protected LogicError(string message = null)
+        protected LogicError(string message)
         {
             Message = message; 
         }
@@ -24,7 +24,7 @@
         /// <summary>
         /// The message to display to the end user of the system
         /// </summary>
-        public string Message { get; set; }
+        public string Message { get; private set; }
 
         /// <summary>
         /// Creates an instance of the <see cref="T:OCELot.ErrorHandling.LogicException"/> class with this logic error contained in it and throws it as an exception.
