@@ -3,7 +3,7 @@ namespace OCELot.ErrorHandling.Tests
     public class TestLogicError : LogicError
     {
         public TestLogicError()
-            :base("this is just a test")
+            :base(string.Empty)
         {
         }
 
