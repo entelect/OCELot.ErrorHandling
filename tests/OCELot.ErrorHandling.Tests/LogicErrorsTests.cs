@@ -31,7 +31,7 @@ namespace OCELot.ErrorHandling.Tests
         {
             var testLogicError = new TestLogicError();
             var secondTestLogicError = new TestLogicError();
-            var logicErrors = new LogicErrors(new[] {testLogicError, secondTestLogicError});
+            var logicErrors = new LogicErrors(new LogicError[] {testLogicError, secondTestLogicError});
             Assert.NotNull(logicErrors);
             CollectionAssert.IsNotEmpty(logicErrors);
             CollectionAssert.Contains(logicErrors, testLogicError);
@@ -102,7 +102,7 @@ namespace OCELot.ErrorHandling.Tests
             var testLogicError1 = new TestLogicError(message1);
             const string message2 = "Message 2";
             var testLogicError2 = new TestLogicError(message2);
-            var logicErrors = new LogicErrors(new[] {testLogicError1, testLogicError2});
+            var logicErrors = new LogicErrors(new LogicError[] {testLogicError1, testLogicError2});
             var combinedMessage = logicErrors.GetCombinedMessages();
             StringAssert.Contains(message1, combinedMessage);
             StringAssert.Contains(message2, combinedMessage);
@@ -113,7 +113,7 @@ namespace OCELot.ErrorHandling.Tests
             const string message1 = "Message 1";
             var testLogicError1 = new TestLogicError(message1);
             var testLogicError2 = new TestLogicError();
-            var logicErrors = new LogicErrors(new[] { testLogicError1, testLogicError2 });
+            var logicErrors = new LogicErrors(new LogicError[] { testLogicError1, testLogicError2 });
             var combinedMessage = logicErrors.GetCombinedMessages();
             StringAssert.Contains(message1, combinedMessage);
             StringAssert.Contains(typeof(TestLogicError).Name, combinedMessage);

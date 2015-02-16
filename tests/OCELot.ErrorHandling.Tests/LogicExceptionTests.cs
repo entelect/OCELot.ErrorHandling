@@ -117,7 +117,8 @@ namespace OCELot.ErrorHandling.Tests
         public void AbilityToCreateLogicExptionWithSerialisationInfo()
         {
             var logicErrors = new LogicErrors(new TestLogicError("Testing!"));
-            new SerializableLogicExcpetion(logicErrors, "More Testing");
+            var serializableLogicExcpetion = new SerializableLogicExcpetion(logicErrors, "More Testing");
+            Assert.NotNull(serializableLogicExcpetion);
         }
     }
 }
