@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCELot.ErrorHandling.Tests", "tests\OCELot.ErrorHandling.Tests\OCELot.ErrorHandling.Tests.csproj", "{D0AABDDC-5ACA-4CB7-8AFC-C751F48277AD}"
 EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "OCELot.ErrorHandling.Documentation", "documentation\OCELot.ErrorHandling.Documentation\OCELot.ErrorHandling.Documentation.shfbproj", "{54FFD561-0277-4C21-BE23-68F7891E1102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{D0AABDDC-5ACA-4CB7-8AFC-C751F48277AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0AABDDC-5ACA-4CB7-8AFC-C751F48277AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0AABDDC-5ACA-4CB7-8AFC-C751F48277AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FFD561-0277-4C21-BE23-68F7891E1102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FFD561-0277-4C21-BE23-68F7891E1102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FFD561-0277-4C21-BE23-68F7891E1102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FFD561-0277-4C21-BE23-68F7891E1102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
