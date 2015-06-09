@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("OCELot.ErrorHandling")]
 [assembly: AssemblyDescription("A collection of classes and helpers to handle business logic errors that are safe to be displayed to an end user, unlike exceptions which typically should not be.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Entelect")]
 [assembly: AssemblyProduct("OCELot.ErrorHandling")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
+[assembly: AssemblyCulture("Entelect")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
