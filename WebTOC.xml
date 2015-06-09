@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the OCELot.ErrorHandling documentation" Url="html/d8518319-01e5-4b4a-a092-48b9a3b4797b.htm" />
+  <HelpTOCNode Id="fb155120-623e-4949-b4a5-7d6e365af161" Title="Version History" Url="html/ccfcb4e5-0092-4d43-878d-d4d8b0f8e0e0.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/f6a6120c-8fe1-47f8-ae6a-fdb792ad2e55.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="8fd623fd-d8d8-425b-8cfa-d868380aabd2" Title="OCELot.ErrorHandling" Url="html/aa333660-5779-fa56-165a-69a01796c9aa.htm">
+    <HelpTOCNode Id="3d9fff0d-23df-4714-ba5b-1a6deb20f4d7" Title="ArgumentNullError Class" Url="html/96f5894f-b43c-73ca-01b4-cc94fbc0dfe7.htm">
+      <HelpTOCNode Title="ArgumentNullError Constructor " Url="html/95a52276-34cd-85fe-9fc0-1286499c2af9.htm" />
+      <HelpTOCNode Title="ArgumentNullError Methods" Url="html/f6e5928a-e20f-34f7-b68b-f9787215a578.htm" />
+      <HelpTOCNode Title="ArgumentNullError Properties" Url="html/bf207be0-b8a3-2e0c-3332-609277151c2d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7eaa83e2-9aa1-4b95-9434-006e5ae242ab" Title="LogicError Class" Url="html/02cc5f09-1c12-873a-fd64-05ca6e62cf86.htm">
+      <HelpTOCNode Title="LogicError Constructor " Url="html/2286cf29-544d-069a-2f1e-53fb67ee75de.htm" />
+      <HelpTOCNode Id="673ef66c-cc51-4d61-a41b-7d9fbd827a6a" Title="LogicError Methods" Url="html/460a9c61-cbeb-d0f0-03f0-f7da8baadc89.htm">
+        <HelpTOCNode Title="AsException Method " Url="html/a27cac24-164d-0a64-2c68-ceba580617f0.htm" />
+        <HelpTOCNode Title="Throw Method " Url="html/80e5bc9a-4e51-4ba0-3d03-8064a9639e00.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bc5cc359-4707-4479-8bf6-1e1c8645f939" Title="LogicError Properties" Url="html/121c5d4b-bfca-03c3-b45b-1fbe5ad03e2e.htm">
+        <HelpTOCNode Title="Message Property " Url="html/69580ff3-b6dd-cd2a-8dd4-552d8d122f93.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bcd16436-7c1f-42b6-8cf5-e61b7b0ca178" Title="LogicErrors Class" Url="html/f5343169-0e2f-c48f-5c69-05000732bda9.htm">
+      <HelpTOCNode Id="187a63b1-b251-4eb2-bb5f-f771d2dcdb20" Title="LogicErrors Constructor " Url="html/3e8e9083-01aa-370e-5fbf-fa3227bf9bd6.htm">
+        <HelpTOCNode Title="LogicErrors Constructor " Url="html/3ae3244d-80ed-063e-ebeb-2bf9c366c23f.htm" />
+        <HelpTOCNode Title="LogicErrors Constructor (LogicError)" Url="html/c8af275d-0b9f-b307-f5a4-dabc3d0ccffc.htm" />
+        <HelpTOCNode Title="LogicErrors Constructor (IEnumerable(LogicError))" Url="html/a2cfb899-4c90-1e4c-74e5-3ddbeff3065d.htm" />
+        <HelpTOCNode Title="LogicErrors Constructor (IList(LogicError))" Url="html/e5f1486f-c586-1529-1b90-048d2bd06b45.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="edbdbaa2-c2ac-4da4-b73a-ac669b15b4d4" Title="LogicErrors Methods" Url="html/76b4b50c-e2e2-480b-f6ec-c05f0412b67a.htm">
+        <HelpTOCNode Title="AddRange Method " Url="html/6047846a-a9bb-4efa-b449-cfd1e86d080d.htm" />
+        <HelpTOCNode Title="GetCombinedMessages Method " Url="html/14e7d7e8-da35-209c-c8ed-b9e9b6593aa3.htm" />
+        <HelpTOCNode Title="ThrowExceptionIfErrors Method " Url="html/d81f4b82-4f51-a4f1-6c48-8bf0059a4cd6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="77b3f282-dd2f-4f02-93d2-aca2822874c0" Title="LogicErrors Properties" Url="html/a8d47c78-ae6a-bc24-20dd-1196d493af53.htm">
+        <HelpTOCNode Title="HasErrors Property " Url="html/5defdb72-dc85-9a20-cded-6c5889b44456.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="99370692-ef96-4167-9564-5e82013521d0" Title="LogicException Class" Url="html/ea500f60-ed96-adfe-b60d-dc56720c73ab.htm">
+      <HelpTOCNode Id="7181fb48-eccb-410e-84dc-bac23c30ec61" Title="LogicException Constructor " Url="html/f41042c1-62c3-fbe7-0d09-00ecae8fa888.htm">
+        <HelpTOCNode Title="LogicException Constructor (LogicError, String, Exception)" Url="html/1645e11e-361a-869f-e7a4-122361e8ba9b.htm" />
+        <HelpTOCNode Title="LogicException Constructor (IEnumerable(LogicError), String, Exception)" Url="html/da07c2cb-c6db-ab1b-8295-1aba770427d6.htm" />
+        <HelpTOCNode Title="LogicException Constructor (LogicErrors, String, Exception)" Url="html/1031d72d-46f0-ace6-4233-408dc9dfbe22.htm" />
+        <HelpTOCNode Title="LogicException Constructor (SerializationInfo, StreamingContext, LogicErrors, String)" Url="html/423bd12a-e639-3780-790b-abca7aafeac7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bb75330c-bc73-41b2-b006-ca7e6fa1e3fb" Title="LogicException Methods" Url="html/df48a1d7-35bf-9148-6f6f-fdcf3562d96a.htm">
+        <HelpTOCNode Title="GetObjectData Method " Url="html/257f812a-135b-20c6-b198-4368ca8ba0a3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="78ef4933-d916-44c8-b328-59000c257d71" Title="LogicException Properties" Url="html/3a9838af-62b6-bf16-b8a6-1aa25a9b34b4.htm">
+        <HelpTOCNode Title="AdditionalMessage Property " Url="html/6fc043c0-26ea-e55f-6726-f5de35f3d05a.htm" />
+        <HelpTOCNode Title="Errors Property " Url="html/b24be6c5-e908-dde3-9350-cdec901415af.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/e23ea145-48e2-79ed-85da-3e0fc7d7642a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LogicException Events" Url="html/bfe5caca-17f5-c9a0-41ba-05c1abb24c84.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
